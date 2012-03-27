@@ -2,6 +2,7 @@
 import os
 
 PROJECT_DIR = os.path.dirname(__file__)
+ROOT_DIR = os.path.join(PROJECT_DIR, '..')
 PUBLIC_DIR = os.path.join(PROJECT_DIR, 'public')
 
 DEBUG = False
